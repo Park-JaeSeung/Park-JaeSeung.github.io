@@ -74,8 +74,8 @@ span {
 }
 
 #rotator .images .imageHolder img {
-    width: 100%;
-    height: auto;
+    width: 1258px;
+    height: 890px;
     position: absolute;
     display: block;
     top: 0;
