@@ -1,0 +1,314 @@
+html {
+    display: flex;
+    background-color: #31353D;
+
+    justify-content: center;
+    align-items: center;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#wapper {
+
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+.point {
+    letter-spacing: 0.3rem;
+}
+
+#rotator {
+    box-sizing: border-box;
+    position: relative;
+    width: 1258px;
+    height: 890px;
+    margin: auto;
+    border: 10px solid #1C1D21;
+    overflow: hidden;
+
+    transition: all 0.5s;
+}
+
+#rotator .images {
+    width: 1258px;
+    position: relative;
+    z-index: 1;
+}
+
+#form1 a.arrow {
+    width: 250px;
+    height: 250px;
+    display: block;
+    position: absolute;
+    top: 380px;
+
+
+    transition: all 0.5s;
+}
+
+#form1 a.left{
+    left: 50px;
+}
+
+#form1 a.right{
+    right: -50px;
+}
+
+#rotator .images .imageHolder {
+    width: 1258px;
+    float: left;
+    height: 890px;
+    position: relative;
+}
+
+#rotator .images .imageHolder span {
+    display: none;
+}
+
+#rotator .images .imageHolder img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+@media screen and (min-width:1460px) and (max-width:1750px){
+    html{
+        overflow: hidden;
+        height: 950px;
+    }
+
+    #rotator{
+        width: 1100px;
+        height: 780px;
+    }
+
+    #rotator .images .imageHolder img {
+        width: 1100px;
+    }
+
+    #form1 a.arrow {
+        width: 150px;
+        height: 150px;
+        top: 380px;
+        overflow: hidden;
+    }
+
+    #form1 a.right{
+        right: 20px !important;
+    }
+
+    #form1 a.left{
+        left: 0px !important;
+    }
+
+    #form1 a.arrow  img{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (min-width:1250px) and (max-width:1459px){
+    html{
+        overflow: hidden;
+        height: 900px;
+    }
+
+    #rotator{
+        width: 1000px;
+        height: 705px;
+    }
+
+    #rotator .images .imageHolder img {
+        width: 1000px;
+    }
+
+    #form1 a.arrow {
+        width: 150px;
+        height: 150px;
+        top: 350px;
+        overflow: hidden;
+    }
+
+    #form1 a.right{
+        right: 0px;
+    }
+
+    #form1 a.left{
+        left: 0px;
+    }
+
+    #form1 a.arrow  img{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (min-width:1100px) and (max-width:1249px){
+    html{
+        overflow: hidden;
+        height: 850px;
+    }
+
+    #rotator{
+        width: 900px;
+        height: 635px;
+    }
+
+    #rotator .images .imageHolder img {
+        width: 900px;
+    }
+
+    #form1 a.arrow {
+        width: 120px;
+        height: 120px;
+        top: 350px;
+        overflow: hidden;
+    }
+
+    #form1 a.right{
+        right: 0px;
+    }
+
+    #form1 a.left{
+        left: 0px;
+    }
+
+    #form1 a.arrow  img{
+        width: 120px;
+        height: 120px;
+    }
+}
+@media screen and (min-width:950px) and (max-width:1099px){
+    html{
+        overflow: hidden;
+        padding-top: 1%;
+    }
+
+    #rotator{
+        width: 900px;
+        height: 635px;
+    }
+
+    #rotator .images .imageHolder img {
+        width: 900px;
+    }
+
+    #form1 .arrowLayout{
+        width: 300px;
+        background-color: white;
+    }
+
+    #form1 a.arrow {
+        width: 120px;
+        height: 120px;
+        top: 340px;
+        overflow: hidden;
+        z-index: 10;
+    }
+
+    #form1 a.right{
+        right: 20px;
+    }
+
+    #form1 a.left{
+        left: 80px;
+    }
+
+    #form1 a.arrow  img{
+        width: 65px;
+        height: 65px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:949px){
+    html{
+        overflow: hidden;
+        padding-top: 1%;
+    }
+
+    #rotator{
+        width: 700px;
+        height: 495px;
+    }
+
+    #rotator .images .imageHolder img {
+        width: 700px;
+    }
+
+    #form1 a.arrow {
+        width: 120px;
+        height: 120px;
+        top: 260px;
+        overflow: hidden;
+        z-index: 10;
+    }
+
+    #form1 a.right{
+        right: -30px;
+    }
+
+    #form1 a.left{
+        left: 20px;
+    }
+
+    #form1 a.arrow  img{
+        width: 65px;
+        height: 65px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:699px){
+    html{
+        overflow: hidden;
+        padding-top: 1%;
+    }
+    .text-box{
+        display: none;
+    }
+    #rotator{
+        margin-top: 20px;
+        max-width: 480px;
+        width: 100%;
+        height: 340px;
+    }
+
+    #rotator .images .imageHolder img {
+        width: 480px;
+    }
+
+    #form1 a.arrow {
+        width: 120px;
+        height: 120px;
+        top: 180px;
+        overflow: hidden;
+        z-index: 10;
+        opacity: 50%;
+    }
+
+    #form1 a.right{
+        right: -30px;
+    }
+
+    #form1 a.left{
+        left: 20px;
+    }
+
+    #form1 a.arrow  img{
+        width: 65px;
+        height: 65px;
+    }
+}
