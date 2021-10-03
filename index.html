@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MYPORTFOLIO</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#form1 > a.arrow.right').click(function (e) {
+                e.preventDefault;
+                var rotator = $('#rotator .images');
+                rotator.children('.imageHolder').first().animate({ marginLeft: "-=0px" }, function () {
+                    $(this).appendTo(rotator).removeAttr("style");
+                });
+            });
+            $('#form1 > a.arrow.left').click(function (e) {
+                e.preventDefault;
+                var rotator = $('#rotator .images');
+                rotator.children('.imageHolder').last().prependTo(rotator).removeAttr("style").css("margin-left", "0").animate({ marginLeft: "0" });
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="wapper">
+    <span class="text-box">박재성's <span class="point">MYPORTFOLIO</span></span>
+    <form id="form1" runat="server">
+        <a href="#" class="arrow left"><img src="images/left_arrow.svg" alt=""></a>
+        <div id="rotator">
+            <div class="images">
+                <div class="imageHolder">
+                    <span>1. 포트폴리오(표지)</span>
+                    <img src="images/01.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>2. 포트폴리오(속지)</span>
+                    <img src="images/02.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>3. 포트폴리오(목차)</span>
+                    <img src="images/03.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>4. 포트폴리오(파트속지2)</span>
+                    <img src="images/04.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>5. 포트폴리오(컨셉)(TEST)</span>
+                    <img src="images/05.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>6. 포트폴리오(지역도)(TEST)</span>
+                    <img src="images/06.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>7. 포트폴리오(속지)</span>
+                    <img src="images/07.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>8. 포트폴리오(파트속지1)</span>
+                    <img src="images/08.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>9. 포트폴리오(익스테리어)</span>
+                    <img src="images/09.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>10. 포트폴리오(익스테리어)_1</span>
+                    <img src="images/10.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>11. 포트폴리오(속지)</span>
+                    <img src="images/11.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>12. 포트폴리오(파트속지)</span>
+                    <img src="images/12.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>13. 포트폴리오(1F 도면)</span>
+                    <img src="images/13.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>14. 포트폴리오(거실)</span>
+                    <img src="images/14.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>15. 포트폴리오(큰방)</span>
+                    <img src="images/15.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>16. 포트폴리오(작은방)</span>
+                    <img src="images/16.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>17. 포트폴리오(화장실)</span>
+                    <img src="images/17.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>18. 포트폴리오(세탁실)</span>
+                    <img src="images/18.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>19. 포트폴리오(복도 및 현관)</span>
+                    <img src="images/19.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>20. 포트폴리오(속지)</span>
+                    <img src="images/20.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>21. 포트폴리오(파트속지4)</span>
+                    <img src="images/21.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>22. 포트폴리오(2F 도면)</span>
+                    <img src="images/22.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>23. 포트폴리오(샤워룸)</span>
+                    <img src="images/23.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>24. 포트폴리오(락커룸)</span>
+                    <img src="images/24.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>25. 포트폴리오(속지)</span>
+                    <img src="images/25.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>26. 포트폴리오(파트속지3)</span>
+                    <img src="images/26.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>27. 포트폴리오(Sketchup)1</span>
+                    <img src="images/27.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>28. 포트폴리오(Sketchup)2</span>
+                    <img src="images/28.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>29. 포트폴리오(Sketchup)3</span>
+                    <img src="images/29.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>30. 포트폴리오(Sketchup)4</span>
+                    <img src="images/30.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>31. 포트폴리오(Sketchup)5</span>
+                    <img src="images/31.png"/>
+                </div>
+                <div class="imageHolder">
+                    <span>32. 포트폴리오(마무리장)</span>
+                    <img src="images/32.png"/>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="arrow right"><img src="images/right_arrow.svg" alt=""></a>
+    </form>
+</div>
+</body>
+</html>
