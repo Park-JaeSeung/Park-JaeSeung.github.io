@@ -1,4 +1,5 @@
 html {
+
     display: flex;
     background-color: #31353D;
 
@@ -10,11 +11,7 @@ html {
 }
 
 #wapper {
-
-    margin: auto;
-    width: 100%;
-    box-sizing: border-box;
-
+    padding: 3px 20px 0;
 }
 
 span {
@@ -26,17 +23,14 @@ span {
     border-bottom: 1px solid #ffffff;
 }
 
-
 .point {
     letter-spacing: 0.3rem;
 }
 
 #rotator {
-    box-sizing: border-box;
     position: relative;
     width: 1258px;
     height: 890px;
-    margin: auto;
     border: 10px solid #1C1D21;
     overflow: hidden;
 
