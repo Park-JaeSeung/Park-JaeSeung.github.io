@@ -1,17 +1,31 @@
 html {
-
     display: flex;
     background-color: #31353D;
 
     justify-content: center;
     align-items: center;
-
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
 #wapper {
     padding: 3px 20px 0;
+}
+p{
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.02rem;
+    margin-left: 0.5%;
+    margin-top: -1px;
+}
+
+p>span{
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    position: relative;
+    top: -1px;
 }
 
 span {
@@ -28,6 +42,7 @@ span {
 }
 
 #rotator {
+    box-sizing: border-box;
     position: relative;
     width: 1258px;
     height: 890px;
@@ -96,6 +111,7 @@ span {
 
     #rotator .images .imageHolder img {
         width: 1100px;
+        height: auto;
     }
 
     #form1 a.arrow {
@@ -131,6 +147,7 @@ span {
 
     #rotator .images .imageHolder img {
         width: 1000px;
+        height: auto;
     }
 
     #form1 a.arrow {
@@ -166,6 +183,7 @@ span {
 
     #rotator .images .imageHolder img {
         width: 900px;
+        height: auto;
     }
 
     #form1 a.arrow {
@@ -201,6 +219,7 @@ span {
 
     #rotator .images .imageHolder img {
         width: 900px;
+        height: auto;
     }
 
     #form1 .arrowLayout{
@@ -242,6 +261,7 @@ span {
 
     #rotator .images .imageHolder img {
         width: 700px;
+        height: auto;
     }
 
     #form1 a.arrow {
@@ -282,6 +302,7 @@ span {
 
     #rotator .images .imageHolder img {
         width: 480px;
+        height: auto;
     }
 
     #form1 a.arrow {
